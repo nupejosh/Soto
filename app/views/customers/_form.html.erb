@@ -1,0 +1,204 @@
+      <%= form_for @customer, :html => { multipart: true, :class => 'form-vertical' } do |f| %>
+   
+    <div>
+      <table>
+        <tr>
+          <%= f.file_field :avatar %>
+        </tr>
+        <tr>
+          <%= f.label :remote_avatar_url %><br /> or image URL
+          <%= f.text_field :remote_avatar_url %>
+        </tr>
+      </table>   
+    </div>  
+
+    <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('COAT_1.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_2.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_3.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_4.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :coat_1, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_2, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_3, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_4, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+        <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('COAT_5.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_6.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_7.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_8.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :coat_5, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_6, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_7, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_8, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+        <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('COAT_9.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_10.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_11.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('COAT_12.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :coat_9, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_10, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_11, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :coat_12, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+        <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('COAT_13.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_1.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_2A.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_2b.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :coat_13, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_1, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_2a, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_2b, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+             <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('PANT_3.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_4.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_5.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_6.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :pant_3, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_4, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_5, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_6, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+         <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('PANT_7.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('PANT_8.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_1.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_2.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :pant_7, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :pant_8, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_1, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_2, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+         <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_3.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_4.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_5.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_6.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :shirt_3, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_4, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_5, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_6, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+         <div class="control-group">
+      <table>  
+      <tr> 
+        <div class= 'container-fluid'>
+        <div class='row'>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_7.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_8.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_9.jpg'), :class => 'control-label') %></div></td>
+          <td><div class='col-md-3'><%= image_tag(('SHIRT_10.jpg'), :class => 'control-label') %></div></td>
+        </div>
+      </tr>
+      <tr>
+        <div class="controls">
+          <td><div class='col-md-3'><%= f.text_field :shirt_7, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_8, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_9, :class => 'text_field' %></div></td> 
+          <td><div class='col-md-3'><%= f.text_field :shirt_10, :class => 'text_field' %></div></td> 
+        </div>
+      </tr>
+      </table>
+      </div>
+    </div>
+
+        <div class="form-actions">
+          <%= f.submit nil, :class => 'btn btn-primary' %>
+          <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                      customers_path, :class => 'btn' %>
+        </div>
+      <% end %>
