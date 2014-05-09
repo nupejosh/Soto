@@ -49,7 +49,7 @@
       <tr>
         <td><%= link_to customer.id, customer_path(customer) %></td>
 
-        <td><%= image_tag @customer.avatar_url(:thumb).to_s if @customer.avatar? %></td>
+        <td><%= image_tag customer.avatar %></td>
         <td><%= customer.coat_1 %></td>
         <td><%= customer.coat_2 %></td>
         <td><%= customer.coat_3 %></td>
