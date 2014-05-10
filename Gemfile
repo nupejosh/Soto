@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rmagick'
+gem 'rmagick', :require => 'RMagick'
 gem 'thin'
 #gem 'protected_attributes'
 gem 'libv8', '~> 3.16.14.1'
@@ -48,6 +48,9 @@ end
 
 gem 'rails_12factor', group: :production
 
+group :development do 
+	gem 'sqlite3'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
